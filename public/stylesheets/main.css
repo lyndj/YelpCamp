@@ -1,0 +1,16 @@
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    padding: 10px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+#greeting {
+    color: white;
+}
