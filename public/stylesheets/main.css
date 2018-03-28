@@ -1,4 +1,5 @@
 
+
 .card img {
     width: 100%;
 }
@@ -9,8 +10,4 @@
 
 .delete-form {
     display: inline;
-}
-
-#greeting {
-    color: white;
 }
