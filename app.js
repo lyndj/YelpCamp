@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var express = require("express"),
     app = express(),
     bodyParser = require("body-parser"),
@@ -11,6 +13,9 @@ var express = require("express"),
     methodOverride = require("method-override"),
     flash = require("connect-flash")
 
+
+// Google Map API Key: AIzaSyCE3v_39YuXYtmgn3qBz49XHVXk77Nb6nw
+// Geocodng API key: AIzaSyDQvD8f8dvVsRKFfIU6GdQ8oRYon8ZMBIQ
 //requiring routes
 var commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
